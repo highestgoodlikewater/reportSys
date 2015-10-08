@@ -11,5 +11,14 @@ namespace Home\Model;
 use Think\Model;
 
 class TeacherModel extends Model {
-    
+//    protected $tablePrefix = '';
+//    protected $tableName = 'teacher';
+    //×Ö¶Î
+    protected $fields = array('ZGH', 'XM', 'XBM', 'XB', 'MZMC', 'XYBM', '_pk'=>'ZGH');
+//    protected $ZGH;
+//    protected $XM;
+//    protected $XBM;
+//    protected $XB;
+//    protected $MZMC;
+//    protected $XYBM;
 }

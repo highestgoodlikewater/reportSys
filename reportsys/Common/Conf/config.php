@@ -8,7 +8,9 @@ return array(
     'DB_USER'=>'root',          //用户名
     'DB_PWD'=>'123456',         //密码
     'DB_PORT'=>3306,            //端口
+    'DB_PREFIX'=>'',
     //页面调试工具
     'SHOW_PAGE_TRACE'=>true,
-
+    //默认模板后缀  php
+    'TMPL_TEMPLATE_SUFFIX'=>'.php'
 );

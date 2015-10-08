@@ -34,17 +34,54 @@
 </head>
 <body>
     <div class="wrapper">
-        <include file="Public/Home/View/top.html" />
+        <include file="Public/Home/View/top.php" />
 
         <!-- main -->
 
             <div class="bottom">
                 <div class="container">
                     <div class="row">
-                        <include file="Public/Home/View/menuLeft.html" />
+                        <include file="Public/Home/View/menuLeft.php" />
                         <div class="col-md-10 content-wrapper">
-                            <include file="Public/Home/View/menuTop.html" />
+                            <include file="Public/Home/View/menuTop.php" />
                             <!-- main data start-->
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <form action="Home/index" method="POST">
+                                        <input type="checkbox" value="1" />
+                                        <input class="btn btn-primary" type="submit" value="submit"/>
+                                    </form>
+                                </div>
+                                <table class="table">
+                                    <caption>基本的表格布局</caption>
+                                    <thead>
+                                    <tr>
+                                        <th>工号</th>
+                                        <th>姓名</th>
+                                        <th>性别</th>
+                                        <th>民族</th>
+                                        <th>学院</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <?php foreach($res as $result){ ?>
+                                        <tr>
+                                            <td><?php echo $result['zgh'];?></td>
+                                            <td><?php echo $result['xm'];?></td>
+                                            <td><?php echo $result['xb'];?></td>
+                                            <td><?php echo $result['mzmc'];?></td>
+                                            <td><?php echo $result['xybm'];?></td>
+                                        </tr>
+                                    <?php }?>
+                                    </tbody>
+                                </table>
+
+                                <div class="col-md-12">
+
+                                </div>
+
+                            </div>
+
 
                             <!-- /main data end-->
                         </div>
@@ -55,7 +92,7 @@
 
 
         <!-- /main -->
-        <include file="Public/Home/View/footer.html" />
+        <include file="Public/Home/View/footer.php" />
     </div>
 
     <!-- js file include-->
