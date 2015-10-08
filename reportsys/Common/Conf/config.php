@@ -10,4 +10,5 @@ return array(
     'DB_PORT'=>3306,            //端口
     //页面调试工具
     'SHOW_PAGE_TRACE'=>true,
+
 );
