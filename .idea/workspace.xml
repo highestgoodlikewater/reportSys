@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5f2f15-a142-4631-91b5-dcd6f9ea4288" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reportsys/Runtime/Logs/Common/15_10_08.log" afterPath="$PROJECT_DIR$/reportsys/Runtime/Logs/Common/15_10_08.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reportsys/Runtime/Logs/Home/15_10_08.log" afterPath="$PROJECT_DIR$/reportsys/Runtime/Logs/Home/15_10_08.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reportsys/Runtime/Cache/Home/1b9ea09edb60c4bd118433f76322057e.php" afterPath="$PROJECT_DIR$/reportsys/Runtime/Cache/Home/1b9ea09edb60c4bd118433f76322057e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reportsys/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/reportsys/Home/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reportsys/Home/Model/TeacherModel.class.php" afterPath="$PROJECT_DIR$/reportsys/Home/Model/TeacherModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reportsys/Common/Conf/config.php" afterPath="$PROJECT_DIR$/reportsys/Common/Conf/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\WEB\APACHE\htdocs\myDemo\reportSys\Public\Home\View\footer.html" afterPath="$PROJECT_DIR$/Public/Home/View/footer.php" />
-      <change type="MOVED" beforePath="D:\WEB\APACHE\htdocs\myDemo\reportSys\Public\Home\View\menuLeft.html" afterPath="$PROJECT_DIR$/Public/Home/View/menuLeft.php" />
-      <change type="MOVED" beforePath="D:\WEB\APACHE\htdocs\myDemo\reportSys\Public\Home\View\menuTop.html" afterPath="$PROJECT_DIR$/Public/Home/View/menuTop.php" />
-      <change type="MOVED" beforePath="D:\WEB\APACHE\htdocs\myDemo\reportSys\Public\Home\View\top.html" afterPath="$PROJECT_DIR$/Public/Home/View/top.php" />
-      <change type="MOVED" beforePath="D:\WEB\APACHE\htdocs\myDemo\reportSys\reportsys\Home\View\Index\index.html" afterPath="$PROJECT_DIR$/reportsys/Home/View/Index/index.php" />
     </list>
     <ignored path="reportSys.iws" />
     <ignored path=".idea/workspace.xml" />
