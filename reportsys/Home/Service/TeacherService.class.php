@@ -10,10 +10,29 @@ namespace Home\Service;
 use Think\Model;
 
 class TeacherService extends Model {
+
     public function getDataByXB($XBM) {
         $teacher = D('Teacher');
-        $res=$teacher->where("XBM=".$XBM)->limit(0,2)->select();
+        $res=$teacher->where("XBM=".$XBM)->select();
 
+        return $res;
+    }
+    public function getAllXYBM() {
+        $teacher = D('Teacher');
+        $res=$teacher->distinct(true)->field('XYBM')->select();
+        return $res;
+    }
+    public function getDataByXbXybm($XBM, $XYBM) {
+        $teacher = D('Teacher');
+        $map['XBM']=$XBM;
+        $map['XYBM']=$XYBM;
+        $res=$teacher->where($map)->select();
+        return $res;
+    }
+    public function getDataByXybm($XYBM) {
+        $teacher=D('Teacher');
+        $map['XYBM']=$XYBM;
+        $res=$teacher->where($map)->select();
         return $res;
     }
 }

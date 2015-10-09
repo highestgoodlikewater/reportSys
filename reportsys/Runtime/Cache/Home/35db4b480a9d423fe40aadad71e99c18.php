@@ -529,12 +529,29 @@
     </div>
                             <!-- main data start-->
                             <div class="container-fluid">
+                                <form action="/myDemo/reportSys/index.php/Home/Index/index" method="POST">
                                 <div class="row">
-                                    <form action="Home/index" method="POST">
-                                        <input type="checkbox" />
-                                        <input class="btn btn-primary" type="submit" value="submit"/>
-                                    </form>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            male:&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="1" />
+                                            <br/>
+                                            female:&nbsp;&nbsp;<input type="radio" name="sex" value="2" />
+                                            <br/>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select name="xybm">
+                                                <option value="" selected="selected">&nbsp;</option>
+                                                <?php foreach($xybm as $result){?>
+                                                    <option value="<?php echo $result['xybm'];?>"><?php echo $result['xybm'];?></option>
+                                                <?php }?>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <input class="btn btn-primary" type="submit" value="submit"/>
+                                        </div>
+                                    </div>
                                 </div>
+                                </form>
                                 <table class="table">
                                     <caption>基本的表格布局</caption>
                                     <thead>
