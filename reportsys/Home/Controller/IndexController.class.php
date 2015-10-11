@@ -18,7 +18,11 @@ class IndexController extends Controller {
         }else if($_POST['xybm']!=null){
             $res=$TeacherService->getDataByXybm($_POST['xybm']);
         }
+
+        $xybmCount=$TeacherService->getDataCountByXybm($xybm);  //查询每个部门人数
+
         $this->assign('res', $res);
+        $this->assign('xybmCount',$xybmCount);
         $this->assign('xybm',$xybm);
         $this->display('index');
     }

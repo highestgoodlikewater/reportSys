@@ -12,24 +12,25 @@
     <meta name="description" content="The Leven Blog">
     <meta name="author" content="Leven">
 
+
     <!-- CSS -->
-    <link href="/myDemo/reportSys/Public/Home/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="/myDemo/reportSys/Public/Home/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/myDemo/reportSys/Public/Home/css/main.css" rel="stylesheet" type="text/css">
-    <link href="/myDemo/reportSys/Public/Home/css/my-custom-styles.css" rel="stylesheet" type="text/css">
-    <link href="/myDemo/reportSys/Public/Home/css/style-switcher.css" rel="stylesheet" type="text/css">
+    <link href="/reportSys/Public/Home/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/reportSys/Public/Home/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/reportSys/Public/Home/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/reportSys/Public/Home/css/my-custom-styles.css" rel="stylesheet" type="text/css">
+    <link href="/reportSys/Public/Home/css/style-switcher.css" rel="stylesheet" type="text/css">
     <!--[if lte IE 9]>
-    <link href="/myDemo/reportSys/Public/Home/css/main-ie.css" rel="stylesheet" type="text/css"/>
-    <link href="/myDemo/reportSys/Public/Home/css/main-ie-part2.css" rel="stylesheet" type="text/css"/>
+    <link href="/reportSys/Public/Home/css/main-ie.css" rel="stylesheet" type="text/css"/>
+    <link href="/reportSys/Public/Home/css/main-ie-part2.css" rel="stylesheet" type="text/css"/>
     <![endif]-->
 
     <!-- CSS for demo style switcher. you can remove this -->
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/myDemo/reportSys/Public/Home/ico/kingadmin-favicon144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/myDemo/reportSys/Public/Home/ico/kingadmin-favicon114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/myDemo/reportSys/Public/Home/ico/kingadmin-favicon72x72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/myDemo/reportSys/Public/Home/ico/kingadmin-favicon57x57.png">
-    <link rel="shortcut icon" href="/myDemo/reportSys/Public/Home/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/reportSys/Public/Home/ico/kingadmin-favicon144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/reportSys/Public/Home/ico/kingadmin-favicon114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/reportSys/Public/Home/ico/kingadmin-favicon72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/reportSys/Public/Home/ico/kingadmin-favicon57x57.png">
+    <link rel="shortcut icon" href="/reportSys/Public/Home/ico/favicon.png">
 
 </head>
 <body>
@@ -40,7 +41,7 @@
         <div class="row">
             <!-- logo -->
             <div class="col-md-2 logo">
-                <a href="Home/Index/index"><img src="/myDemo/reportSys/Public/Home/img/kingadmin-logo-white.png" alt="Admin | The Leven Blog" /></a>
+                <a href="Home/Index/index"><img src="/reportSys/Public/Home/img/kingadmin-logo-white.png" alt="Admin | The Leven Blog" /></a>
                 <h1 class="sr-only">The Leven Blog</h1>
             </div>
             <!-- end logo -->
@@ -83,7 +84,7 @@
                                                     <a href="#">
                                                         <div class="media">
                                                             <div class="media-left">
-                                                                <img class="media-object" src="/myDemo/reportSys/Public/Home/img/user1.png" alt="Antonio">
+                                                                <img class="media-object" src="/reportSys/Public/Home/img/user1.png" alt="Antonio">
                                                             </div>
                                                             <div class="media-body">
                                                                 <h5 class="media-heading name">Antonius</h5>
@@ -97,7 +98,7 @@
                                                     <a href="#">
                                                         <div class="media">
                                                             <div class="media-left">
-                                                                <img class="media-object" src="/myDemo/reportSys/Public/Home/img/user2.png" alt="Antonio">
+                                                                <img class="media-object" src="/reportSys/Public/Home/img/user2.png" alt="Antonio">
                                                             </div>
                                                             <div class="media-body">
                                                                 <h5 class="media-heading name">Michael</h5>
@@ -111,7 +112,7 @@
                                                     <a href="#">
                                                         <div class="media">
                                                             <div class="media-left">
-                                                                <img class="media-object" src="/myDemo/reportSys/Public/Home/img/user3.png" alt="Antonio">
+                                                                <img class="media-object" src="/reportSys/Public/Home/img/user3.png" alt="Antonio">
                                                             </div>
                                                             <div class="media-body">
                                                                 <h5 class="media-heading name">Stella</h5>
@@ -125,7 +126,7 @@
                                                     <a href="#">
                                                         <div class="media">
                                                             <div class="media-left">
-                                                                <img class="media-object" src="/myDemo/reportSys/Public/Home/img/user4.png" alt="Antonio">
+                                                                <img class="media-object" src="/reportSys/Public/Home/img/user4.png" alt="Antonio">
                                                             </div>
                                                             <div class="media-body">
                                                                 <h5 class="media-heading name">Jane Doe</h5>
@@ -139,7 +140,7 @@
                                                     <a href="#">
                                                         <div class="media">
                                                             <div class="media-left">
-                                                                <img class="media-object" src="/myDemo/reportSys/Public/Home/img/user5.png" alt="Antonio">
+                                                                <img class="media-object" src="/reportSys/Public/Home/img/user5.png" alt="Antonio">
                                                             </div>
                                                             <div class="media-body">
                                                                 <h5 class="media-heading name">John Simmons</h5>
@@ -236,7 +237,7 @@
                             <div class="logged-user">
                                 <div class="btn-group">
                                     <a href="#" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
-                                        <img src="/myDemo/reportSys/Public/Home/img/user-avatar.png" alt="User Avatar" />
+                                        <img src="/reportSys/Public/Home/img/user-avatar.png" alt="User Avatar" />
                                         <span class="name">Leven</span> <span class="caret"></span>
                                     </a>
                                     <ul class="dropdown-menu" role="menu">
@@ -529,7 +530,7 @@
     </div>
                             <!-- main data start-->
                             <div class="container-fluid">
-                                <form action="/myDemo/reportSys/index.php/Home/Index/index" method="POST">
+                                <form action="/reportSys/index.php/Home/Index/index" method="POST">
                                 <div class="row">
                                     <div class="row">
                                         <div class="col-md-4">
@@ -577,7 +578,15 @@
                                 </table>
 
                                 <div class="col-md-12">
+                                    <div id="picturePlace1" style="height:400px"> </div>
+                                    <div id="picturePlace2" style="height:800px"> </div>
+                                    <div id="picturePlace3" style="height:800px"> </div>
 
+<!--
+<p> <?php foreach($xybmCount as $key=>$result){ echo "{value:".$result.",name:'".$key."'},"; } ?></p>
+<p> <?php foreach($xybm as $result){ ?> <?php echo $result['xybm'].'","'; }?></p>
+-->
+                                     
                                 </div>
 
                             </div>
@@ -625,14 +634,188 @@
 
     <!-- js file include-->
     <!-- Javascript -->
-    <script src="/myDemo/reportSys/Public/Home/js/jquery/jquery-2.1.0.min.js"></script>
-    <script src="/myDemo/reportSys/Public/Home/js/bootstrap/bootstrap.min.js"></script>
-    <script src="/myDemo/reportSys/Public/Home/js/plugins/modernizr/modernizr.js"></script>
-    <script src="/myDemo/reportSys/Public/Home/js/plugins/bootstrap-tour/bootstrap-tour.custom.js"></script>
-    <script src="/myDemo/reportSys/Public/Home/js/king-common.js"></script>
-    <script src="/myDemo/reportSys/Public/Home/js/deliswitch.js"></script>
-    <script src="/myDemo/reportSys/Public/Home/js/plugins/bootstrap-switch/bootstrap-switch.min.js"></script>
+    <script src="/reportSys/Public/Home/js/jquery/jquery-2.1.0.min.js"></script>
+    <script src="/reportSys/Public/Home/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/reportSys/Public/Home/js/plugins/modernizr/modernizr.js"></script>
+    <script src="/reportSys/Public/Home/js/plugins/bootstrap-tour/bootstrap-tour.custom.js"></script>
+    <script src="/reportSys/Public/Home/js/king-common.js"></script>
+    <script src="/reportSys/Public/Home/js/deliswitch.js"></script>
+    <script src="/reportSys/Public/Home/js/plugins/bootstrap-switch/bootstrap-switch.min.js"></script>
+
+
+    <script src="/reportSys/Public/Home/echarts-2.2.7/doc/asset/js/esl/esl.js"></script>
     <!--<script src="../assets/js/zidingyi/iframe-height.js" type="text/javascript" language="javascript" ></script>-->
+    <script src="/reportSys/Public/Home/echarts-2.2.7/build/dist/echarts.js"></script>
+   <script type="text/javascript">  
+       require.config({   // 路径配置  
+            paths: {
+                echarts: '/reportSys/Public/Home/echarts-2.2.7/build/dist'
+            }
+        });
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/bar' // 使用柱状图就加载bar模块，按需加载
+            ],
+            function (ec) {
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('picturePlace1')); 
+                var option = {
+                    tooltip: {
+                        show: true
+                    },
+                    legend: {
+                        data:['人数']
+                    },
+                    xAxis : [
+                        {
+                            type : 'category',
+                            data : ["<?php foreach($xybm as $result){ ?> <?php echo $result['xybm'].'","'; }?>"]
+                        }
+                    ],
+                    yAxis : [
+                        {
+                            type : 'value'
+                        }
+                    ],
+                    series : [
+                        {
+                            "name":"人数",
+                            "type":"bar",
+                            "data":[<?php foreach($xybmCount as $result){ echo $result.','; } ?>]
+                        }
+                    ]
+                };
+        
+                // 为echarts对象加载数据 
+                myChart.setOption(option); 
+            }
+        );
+
+
+        require(
+            [
+                'echarts',
+                'echarts/chart/pie' // 使用柱状图就加载bar模块，按需加载
+            ],
+            function (ec) {
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('picturePlace2')); 
+                var  option = {  
+                        title : {  
+                            text: '各个学院部门人数比例',  
+                            subtext: '纯属虚构',  
+                            x:'center'  
+                        },  
+                        tooltip : {  
+                            trigger: 'item',  
+                            formatter: "{a} <br/>{b} : {c} ({d}%)"  
+                        },  
+                       /* legend: {  
+                            orient : 'vertical',  
+                            x : 'left',  
+                            data:['<?php foreach($xybm as $result){ ?> <?php echo $result["xybm"]."','"; }?>']  
+                        },  */
+                        toolbox: {  
+                            show : true,  
+                            feature : {  
+                                mark : {show: true},  
+                                dataView : {show: true, readOnly: false},  
+                                restore : {show: true},  
+                                saveAsImage : {show: true}  
+                            }  
+                        },  
+                        calculable : true,  
+                        series : [  
+                            {  
+                                name:'访问来源',  
+                                type:'pie',  
+                                radius : '70%',  
+                                center: ['50%', '60%'],  
+                                data:[  
+                                    <?php foreach($xybmCount as $key=>$result){ echo "{value:".$result.",name:'".$key."'},"; } ?>
+                                ]  
+                            }  
+                        ]  
+                    };  
+          
+                // 为echarts对象加载数据   
+                myChart.setOption(option);   
+            }
+        );
+        
+        require(
+            [
+                'echarts',
+                'echarts/chart/bar' // 使用柱状图就加载bar模块，按需加载
+            ],
+            function (ec) {
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('picturePlace3')); 
+                var option = {
+                    title : {
+                        text: '各个学院部门男女人数',
+                        subtext: ''
+                    },
+                    tooltip : {
+                        trigger: 'axis'
+                    },
+                    legend: {
+                        data:[
+                            '男','',
+                            '女'
+                        ]
+                    },
+                    toolbox: {
+                        show : true,
+                        feature : {
+                            mark : {show: true},
+                            dataView : {show: true, readOnly: false},
+                            magicType : {show: true, type: ['line', 'bar']},
+                            restore : {show: true},
+                            saveAsImage : {show: true}
+                            }
+                    },
+                    calculable : true,
+                    grid: {y: 70, y2:30, x2:20},
+                    xAxis : [
+                    {
+                        type : 'category',
+                        data : ['Line','Bar','Scatter','K','Map']
+                    },
+                    {
+                        type : 'category',
+                        axisLine: {show:false},
+                        axisTick: {show:false},
+                        axisLabel: {show:false},
+                        splitArea: {show:false},
+                        splitLine: {show:false},
+                        data : ['Line','Bar','Scatter','K','Map']
+                    }],
+                    yAxis : [
+                    {
+                        type : 'value',
+                        axisLabel:{formatter:'{value} ms'}
+                    }],
+                    series : [
+                    {
+                        name:'ECharts2 - 20w数据',
+                        type:'bar',
+                        itemStyle: {normal: {color:'rgba(252,206,16,1)', label:{show:true,textStyle:{color:'#E87C25'}}}},
+                        data:[906,911,908,778,0]
+                    },
+                    {
+                        name:'ECharts1 - 20w数据',
+                        type:'bar',
+                        xAxisIndex:1,
+                        itemStyle: {normal: {color:'rgba(252,206,16,0.5)', label:{show:true,formatter:function(p){return p.value > 0 ? (p.value +'+'):'';}}}},
+                        data:[3000,3000,2817,3000,0]
+                    }]
+                }; 
+                myChart.setOption(option);   
+            });               
+</script>  
 
 </body>
 </html>

@@ -35,4 +35,16 @@ class TeacherService extends Model {
         $res=$teacher->where($map)->select();
         return $res;
     }
+    public function getDataCountByXybm($xybm) {   //查询每个部门的人数   
+        $teacher = D('Teacher');
+        $res = array();
+        foreach($xybm as $result)
+        {
+            $temp=$result['xybm'];
+            $map['XYBM']= $temp;
+            $res[$temp] =$teacher->where($map)->count();
+
+        }
+        return $res;
+    }
 }
