@@ -1,6 +1,0 @@
-[ 2015-10-09T13:58:10+08:00 ] 127.0.0.1 /myDemo/reportSys/Home/Home/index
-ERR: 无法加载控制器:Home
-
-[ 2015-10-09T14:39:21+08:00 ] 127.0.0.1 /myDemo/reportSys/index.php/Home/Index/index
-ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.teahcer' doesn't exist
-
