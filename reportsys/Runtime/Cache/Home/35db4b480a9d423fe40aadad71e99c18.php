@@ -575,11 +575,6 @@
                                     <?php }?>
                                     </tbody>
                                 </table>
-
-                                <div class="col-md-12">
-
-                                </div>
-
                             </div>
 
 
